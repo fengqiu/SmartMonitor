@@ -29,6 +29,11 @@
 		39F91375169FA79A00FAB3A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39F91373169FA79A00FAB3A8 /* InfoPlist.strings */; };
 		39F91378169FA79A00FAB3A8 /* Smartlink_MonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F91377169FA79A00FAB3A8 /* Smartlink_MonitorTests.m */; };
 		CEFC85F9169FBD0700A374E5 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC85F8169FBD0700A374E5 /* User.m */; };
+		CEFC85FC169FC20600A374E5 /* System.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC85FB169FC20600A374E5 /* System.m */; };
+		CEFC85FF169FC29100A374E5 /* CoordinatePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC85FE169FC29100A374E5 /* CoordinatePoint.m */; };
+		CEFC8602169FC2E200A374E5 /* GetUser.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC8601169FC2E200A374E5 /* GetUser.m */; };
+		CEFC8605169FC2F900A374E5 /* GetSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC8604169FC2F900A374E5 /* GetSystem.m */; };
+		CEFC8608169FC32600A374E5 /* GetCoordinatePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC8607169FC32600A374E5 /* GetCoordinatePoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +76,16 @@
 		39F91377169FA79A00FAB3A8 /* Smartlink_MonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smartlink_MonitorTests.m; sourceTree = "<group>"; };
 		CEFC85F7169FBD0700A374E5 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		CEFC85F8169FBD0700A374E5 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		CEFC85FA169FC20600A374E5 /* System.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = System.h; sourceTree = "<group>"; };
+		CEFC85FB169FC20600A374E5 /* System.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = System.m; sourceTree = "<group>"; };
+		CEFC85FD169FC29100A374E5 /* CoordinatePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordinatePoint.h; sourceTree = "<group>"; };
+		CEFC85FE169FC29100A374E5 /* CoordinatePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoordinatePoint.m; sourceTree = "<group>"; };
+		CEFC8600169FC2E200A374E5 /* GetUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetUser.h; sourceTree = "<group>"; };
+		CEFC8601169FC2E200A374E5 /* GetUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetUser.m; sourceTree = "<group>"; };
+		CEFC8603169FC2F900A374E5 /* GetSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetSystem.h; sourceTree = "<group>"; };
+		CEFC8604169FC2F900A374E5 /* GetSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetSystem.m; sourceTree = "<group>"; };
+		CEFC8606169FC32600A374E5 /* GetCoordinatePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetCoordinatePoint.h; sourceTree = "<group>"; };
+		CEFC8607169FC32600A374E5 /* GetCoordinatePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetCoordinatePoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +194,10 @@
 			children = (
 				CEFC85F7169FBD0700A374E5 /* User.h */,
 				CEFC85F8169FBD0700A374E5 /* User.m */,
+				CEFC85FA169FC20600A374E5 /* System.h */,
+				CEFC85FB169FC20600A374E5 /* System.m */,
+				CEFC85FD169FC29100A374E5 /* CoordinatePoint.h */,
+				CEFC85FE169FC29100A374E5 /* CoordinatePoint.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -186,6 +205,12 @@
 		CEFC85F5169FBCAE00A374E5 /* webservice */ = {
 			isa = PBXGroup;
 			children = (
+				CEFC8600169FC2E200A374E5 /* GetUser.h */,
+				CEFC8601169FC2E200A374E5 /* GetUser.m */,
+				CEFC8603169FC2F900A374E5 /* GetSystem.h */,
+				CEFC8604169FC2F900A374E5 /* GetSystem.m */,
+				CEFC8606169FC32600A374E5 /* GetCoordinatePoint.h */,
+				CEFC8607169FC32600A374E5 /* GetCoordinatePoint.m */,
 			);
 			name = webservice;
 			sourceTree = "<group>";
@@ -323,6 +348,11 @@
 				39F9135F169FA79900FAB3A8 /* MasterViewController.m in Sources */,
 				39F91362169FA79900FAB3A8 /* DetailViewController.m in Sources */,
 				CEFC85F9169FBD0700A374E5 /* User.m in Sources */,
+				CEFC85FC169FC20600A374E5 /* System.m in Sources */,
+				CEFC85FF169FC29100A374E5 /* CoordinatePoint.m in Sources */,
+				CEFC8602169FC2E200A374E5 /* GetUser.m in Sources */,
+				CEFC8605169FC2F900A374E5 /* GetSystem.m in Sources */,
+				CEFC8608169FC32600A374E5 /* GetCoordinatePoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
