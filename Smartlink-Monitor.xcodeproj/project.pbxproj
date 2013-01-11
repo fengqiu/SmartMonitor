@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39F9133B169FA79900FAB3A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F9133A169FA79900FAB3A8 /* UIKit.framework */; };
+		39F9133D169FA79900FAB3A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F9133C169FA79900FAB3A8 /* Foundation.framework */; };
+		39F9133F169FA79900FAB3A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F9133E169FA79900FAB3A8 /* CoreGraphics.framework */; };
+		39F91341169FA79900FAB3A8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F91340169FA79900FAB3A8 /* CoreData.framework */; };
+		39F91347169FA79900FAB3A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39F91345169FA79900FAB3A8 /* InfoPlist.strings */; };
+		39F91349169FA79900FAB3A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F91348169FA79900FAB3A8 /* main.m */; };
+		39F9134D169FA79900FAB3A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F9134C169FA79900FAB3A8 /* AppDelegate.m */; };
+		39F9134F169FA79900FAB3A8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 39F9134E169FA79900FAB3A8 /* Default.png */; };
+		39F91351169FA79900FAB3A8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39F91350169FA79900FAB3A8 /* Default@2x.png */; };
+		39F91353169FA79900FAB3A8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 39F91352169FA79900FAB3A8 /* Default-568h@2x.png */; };
+		39F91356169FA79900FAB3A8 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F91354169FA79900FAB3A8 /* MainStoryboard_iPhone.storyboard */; };
+		39F91359169FA79900FAB3A8 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39F91357169FA79900FAB3A8 /* MainStoryboard_iPad.storyboard */; };
+		39F9135C169FA79900FAB3A8 /* Smartlink_Monitor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 39F9135A169FA79900FAB3A8 /* Smartlink_Monitor.xcdatamodeld */; };
+		39F9135F169FA79900FAB3A8 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F9135E169FA79900FAB3A8 /* MasterViewController.m */; };
+		39F91362169FA79900FAB3A8 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F91361169FA79900FAB3A8 /* DetailViewController.m */; };
+		39F9136A169FA79A00FAB3A8 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F91369169FA79A00FAB3A8 /* SenTestingKit.framework */; };
+		39F9136B169FA79A00FAB3A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F9133A169FA79900FAB3A8 /* UIKit.framework */; };
+		39F9136C169FA79A00FAB3A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F9133C169FA79900FAB3A8 /* Foundation.framework */; };
+		39F9136D169FA79A00FAB3A8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F91340169FA79900FAB3A8 /* CoreData.framework */; };
+		39F91375169FA79A00FAB3A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39F91373169FA79A00FAB3A8 /* InfoPlist.strings */; };
+		39F91378169FA79A00FAB3A8 /* Smartlink_MonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F91377169FA79A00FAB3A8 /* Smartlink_MonitorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39F9136E169FA79A00FAB3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39F9132D169FA79800FAB3A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39F91335169FA79800FAB3A8;
+			remoteInfo = "Smartlink-Monitor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39F91336169FA79900FAB3A8 /* Smartlink-Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smartlink-Monitor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F9133A169FA79900FAB3A8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39F9133C169FA79900FAB3A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39F9133E169FA79900FAB3A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39F91340169FA79900FAB3A8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		39F91344169FA79900FAB3A8 /* Smartlink-Monitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smartlink-Monitor-Info.plist"; sourceTree = "<group>"; };
+		39F91346169FA79900FAB3A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39F91348169FA79900FAB3A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39F9134A169FA79900FAB3A8 /* Smartlink-Monitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smartlink-Monitor-Prefix.pch"; sourceTree = "<group>"; };
+		39F9134B169FA79900FAB3A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39F9134C169FA79900FAB3A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39F9134E169FA79900FAB3A8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		39F91350169FA79900FAB3A8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		39F91352169FA79900FAB3A8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		39F91355169FA79900FAB3A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		39F91358169FA79900FAB3A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		39F9135B169FA79900FAB3A8 /* Smartlink_Monitor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smartlink_Monitor.xcdatamodel; sourceTree = "<group>"; };
+		39F9135D169FA79900FAB3A8 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		39F9135E169FA79900FAB3A8 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		39F91360169FA79900FAB3A8 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		39F91361169FA79900FAB3A8 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		39F91368169FA79A00FAB3A8 /* Smartlink-MonitorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smartlink-MonitorTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39F91369169FA79A00FAB3A8 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		39F91372169FA79A00FAB3A8 /* Smartlink-MonitorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smartlink-MonitorTests-Info.plist"; sourceTree = "<group>"; };
+		39F91374169FA79A00FAB3A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39F91376169FA79A00FAB3A8 /* Smartlink_MonitorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Smartlink_MonitorTests.h; sourceTree = "<group>"; };
+		39F91377169FA79A00FAB3A8 /* Smartlink_MonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smartlink_MonitorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39F91333169FA79800FAB3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F9133B169FA79900FAB3A8 /* UIKit.framework in Frameworks */,
+				39F9133D169FA79900FAB3A8 /* Foundation.framework in Frameworks */,
+				39F9133F169FA79900FAB3A8 /* CoreGraphics.framework in Frameworks */,
+				39F91341169FA79900FAB3A8 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F91364169FA79A00FAB3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F9136A169FA79A00FAB3A8 /* SenTestingKit.framework in Frameworks */,
+				39F9136B169FA79A00FAB3A8 /* UIKit.framework in Frameworks */,
+				39F9136C169FA79A00FAB3A8 /* Foundation.framework in Frameworks */,
+				39F9136D169FA79A00FAB3A8 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39F9132B169FA79800FAB3A8 = {
+			isa = PBXGroup;
+			children = (
+				39F91342169FA79900FAB3A8 /* Smartlink-Monitor */,
+				39F91370169FA79A00FAB3A8 /* Smartlink-MonitorTests */,
+				39F91339169FA79900FAB3A8 /* Frameworks */,
+				39F91337169FA79900FAB3A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39F91337169FA79900FAB3A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39F91336169FA79900FAB3A8 /* Smartlink-Monitor.app */,
+				39F91368169FA79A00FAB3A8 /* Smartlink-MonitorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39F91339169FA79900FAB3A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39F9133A169FA79900FAB3A8 /* UIKit.framework */,
+				39F9133C169FA79900FAB3A8 /* Foundation.framework */,
+				39F9133E169FA79900FAB3A8 /* CoreGraphics.framework */,
+				39F91340169FA79900FAB3A8 /* CoreData.framework */,
+				39F91369169FA79A00FAB3A8 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39F91342169FA79900FAB3A8 /* Smartlink-Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				39F9134B169FA79900FAB3A8 /* AppDelegate.h */,
+				39F9134C169FA79900FAB3A8 /* AppDelegate.m */,
+				39F91354169FA79900FAB3A8 /* MainStoryboard_iPhone.storyboard */,
+				39F91357169FA79900FAB3A8 /* MainStoryboard_iPad.storyboard */,
+				39F9135D169FA79900FAB3A8 /* MasterViewController.h */,
+				39F9135E169FA79900FAB3A8 /* MasterViewController.m */,
+				39F91360169FA79900FAB3A8 /* DetailViewController.h */,
+				39F91361169FA79900FAB3A8 /* DetailViewController.m */,
+				39F9135A169FA79900FAB3A8 /* Smartlink_Monitor.xcdatamodeld */,
+				39F91343169FA79900FAB3A8 /* Supporting Files */,
+			);
+			path = "Smartlink-Monitor";
+			sourceTree = "<group>";
+		};
+		39F91343169FA79900FAB3A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39F91344169FA79900FAB3A8 /* Smartlink-Monitor-Info.plist */,
+				39F91345169FA79900FAB3A8 /* InfoPlist.strings */,
+				39F91348169FA79900FAB3A8 /* main.m */,
+				39F9134A169FA79900FAB3A8 /* Smartlink-Monitor-Prefix.pch */,
+				39F9134E169FA79900FAB3A8 /* Default.png */,
+				39F91350169FA79900FAB3A8 /* Default@2x.png */,
+				39F91352169FA79900FAB3A8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39F91370169FA79A00FAB3A8 /* Smartlink-MonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				39F91376169FA79A00FAB3A8 /* Smartlink_MonitorTests.h */,
+				39F91377169FA79A00FAB3A8 /* Smartlink_MonitorTests.m */,
+				39F91371169FA79A00FAB3A8 /* Supporting Files */,
+			);
+			path = "Smartlink-MonitorTests";
+			sourceTree = "<group>";
+		};
+		39F91371169FA79A00FAB3A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39F91372169FA79A00FAB3A8 /* Smartlink-MonitorTests-Info.plist */,
+				39F91373169FA79A00FAB3A8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39F91335169FA79800FAB3A8 /* Smartlink-Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F9137B169FA79A00FAB3A8 /* Build configuration list for PBXNativeTarget "Smartlink-Monitor" */;
+			buildPhases = (
+				39F91332169FA79800FAB3A8 /* Sources */,
+				39F91333169FA79800FAB3A8 /* Frameworks */,
+				39F91334169FA79800FAB3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Smartlink-Monitor";
+			productName = "Smartlink-Monitor";
+			productReference = 39F91336169FA79900FAB3A8 /* Smartlink-Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39F91367169FA79A00FAB3A8 /* Smartlink-MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39F9137E169FA79A00FAB3A8 /* Build configuration list for PBXNativeTarget "Smartlink-MonitorTests" */;
+			buildPhases = (
+				39F91363169FA79A00FAB3A8 /* Sources */,
+				39F91364169FA79A00FAB3A8 /* Frameworks */,
+				39F91365169FA79A00FAB3A8 /* Resources */,
+				39F91366169FA79A00FAB3A8 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39F9136F169FA79A00FAB3A8 /* PBXTargetDependency */,
+			);
+			name = "Smartlink-MonitorTests";
+			productName = "Smartlink-MonitorTests";
+			productReference = 39F91368169FA79A00FAB3A8 /* Smartlink-MonitorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39F9132D169FA79800FAB3A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Service-Indeed";
+			};
+			buildConfigurationList = 39F91330169FA79800FAB3A8 /* Build configuration list for PBXProject "Smartlink-Monitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39F9132B169FA79800FAB3A8;
+			productRefGroup = 39F91337169FA79900FAB3A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39F91335169FA79800FAB3A8 /* Smartlink-Monitor */,
+				39F91367169FA79A00FAB3A8 /* Smartlink-MonitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39F91334169FA79800FAB3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F91347169FA79900FAB3A8 /* InfoPlist.strings in Resources */,
+				39F9134F169FA79900FAB3A8 /* Default.png in Resources */,
+				39F91351169FA79900FAB3A8 /* Default@2x.png in Resources */,
+				39F91353169FA79900FAB3A8 /* Default-568h@2x.png in Resources */,
+				39F91356169FA79900FAB3A8 /* MainStoryboard_iPhone.storyboard in Resources */,
+				39F91359169FA79900FAB3A8 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F91365169FA79A00FAB3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F91375169FA79A00FAB3A8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39F91366169FA79A00FAB3A8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39F91332169FA79800FAB3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F91349169FA79900FAB3A8 /* main.m in Sources */,
+				39F9134D169FA79900FAB3A8 /* AppDelegate.m in Sources */,
+				39F9135C169FA79900FAB3A8 /* Smartlink_Monitor.xcdatamodeld in Sources */,
+				39F9135F169FA79900FAB3A8 /* MasterViewController.m in Sources */,
+				39F91362169FA79900FAB3A8 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F91363169FA79A00FAB3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F91378169FA79A00FAB3A8 /* Smartlink_MonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39F9136F169FA79A00FAB3A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39F91335169FA79800FAB3A8 /* Smartlink-Monitor */;
+			targetProxy = 39F9136E169FA79A00FAB3A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39F91345169FA79900FAB3A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F91346169FA79900FAB3A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39F91354169FA79900FAB3A8 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F91355169FA79900FAB3A8 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		39F91357169FA79900FAB3A8 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F91358169FA79900FAB3A8 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		39F91373169FA79A00FAB3A8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39F91374169FA79A00FAB3A8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39F91379169FA79A00FAB3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39F9137A169FA79A00FAB3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39F9137C169FA79A00FAB3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smartlink-Monitor/Smartlink-Monitor-Prefix.pch";
+				INFOPLIST_FILE = "Smartlink-Monitor/Smartlink-Monitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39F9137D169FA79A00FAB3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smartlink-Monitor/Smartlink-Monitor-Prefix.pch";
+				INFOPLIST_FILE = "Smartlink-Monitor/Smartlink-Monitor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		39F9137F169FA79A00FAB3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smartlink-Monitor.app/Smartlink-Monitor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smartlink-Monitor/Smartlink-Monitor-Prefix.pch";
+				INFOPLIST_FILE = "Smartlink-MonitorTests/Smartlink-MonitorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		39F91380169FA79A00FAB3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smartlink-Monitor.app/Smartlink-Monitor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smartlink-Monitor/Smartlink-Monitor-Prefix.pch";
+				INFOPLIST_FILE = "Smartlink-MonitorTests/Smartlink-MonitorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39F91330169FA79800FAB3A8 /* Build configuration list for PBXProject "Smartlink-Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F91379169FA79A00FAB3A8 /* Debug */,
+				39F9137A169FA79A00FAB3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39F9137B169FA79A00FAB3A8 /* Build configuration list for PBXNativeTarget "Smartlink-Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F9137C169FA79A00FAB3A8 /* Debug */,
+				39F9137D169FA79A00FAB3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39F9137E169FA79A00FAB3A8 /* Build configuration list for PBXNativeTarget "Smartlink-MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F9137F169FA79A00FAB3A8 /* Debug */,
+				39F91380169FA79A00FAB3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		39F9135A169FA79900FAB3A8 /* Smartlink_Monitor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				39F9135B169FA79900FAB3A8 /* Smartlink_Monitor.xcdatamodel */,
+			);
+			currentVersion = 39F9135B169FA79900FAB3A8 /* Smartlink_Monitor.xcdatamodel */;
+			path = Smartlink_Monitor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 39F9132D169FA79800FAB3A8 /* Project object */;
+}
