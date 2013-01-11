@@ -28,6 +28,7 @@
 		39F9136D169FA79A00FAB3A8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F91340169FA79900FAB3A8 /* CoreData.framework */; };
 		39F91375169FA79A00FAB3A8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39F91373169FA79A00FAB3A8 /* InfoPlist.strings */; };
 		39F91378169FA79A00FAB3A8 /* Smartlink_MonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F91377169FA79A00FAB3A8 /* Smartlink_MonitorTests.m */; };
+		CEFC85F9169FBD0700A374E5 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = CEFC85F8169FBD0700A374E5 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,8 @@
 		39F91374169FA79A00FAB3A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39F91376169FA79A00FAB3A8 /* Smartlink_MonitorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Smartlink_MonitorTests.h; sourceTree = "<group>"; };
 		39F91377169FA79A00FAB3A8 /* Smartlink_MonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Smartlink_MonitorTests.m; sourceTree = "<group>"; };
+		CEFC85F7169FBD0700A374E5 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		CEFC85F8169FBD0700A374E5 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,15 +133,9 @@
 		39F91342169FA79900FAB3A8 /* Smartlink-Monitor */ = {
 			isa = PBXGroup;
 			children = (
-				39F9134B169FA79900FAB3A8 /* AppDelegate.h */,
-				39F9134C169FA79900FAB3A8 /* AppDelegate.m */,
-				39F91354169FA79900FAB3A8 /* MainStoryboard_iPhone.storyboard */,
-				39F91357169FA79900FAB3A8 /* MainStoryboard_iPad.storyboard */,
-				39F9135D169FA79900FAB3A8 /* MasterViewController.h */,
-				39F9135E169FA79900FAB3A8 /* MasterViewController.m */,
-				39F91360169FA79900FAB3A8 /* DetailViewController.h */,
-				39F91361169FA79900FAB3A8 /* DetailViewController.m */,
-				39F9135A169FA79900FAB3A8 /* Smartlink_Monitor.xcdatamodeld */,
+				CEFC85F6169FBCBA00A374E5 /* controller */,
+				CEFC85F5169FBCAE00A374E5 /* webservice */,
+				CEFC85F3169FBCA100A374E5 /* model */,
 				39F91343169FA79900FAB3A8 /* Supporting Files */,
 			);
 			path = "Smartlink-Monitor";
@@ -175,6 +172,38 @@
 				39F91373169FA79A00FAB3A8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEFC85F3169FBCA100A374E5 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				CEFC85F7169FBD0700A374E5 /* User.h */,
+				CEFC85F8169FBD0700A374E5 /* User.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		CEFC85F5169FBCAE00A374E5 /* webservice */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = webservice;
+			sourceTree = "<group>";
+		};
+		CEFC85F6169FBCBA00A374E5 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				39F9134B169FA79900FAB3A8 /* AppDelegate.h */,
+				39F9134C169FA79900FAB3A8 /* AppDelegate.m */,
+				39F91354169FA79900FAB3A8 /* MainStoryboard_iPhone.storyboard */,
+				39F91357169FA79900FAB3A8 /* MainStoryboard_iPad.storyboard */,
+				39F9135D169FA79900FAB3A8 /* MasterViewController.h */,
+				39F9135E169FA79900FAB3A8 /* MasterViewController.m */,
+				39F91360169FA79900FAB3A8 /* DetailViewController.h */,
+				39F91361169FA79900FAB3A8 /* DetailViewController.m */,
+				39F9135A169FA79900FAB3A8 /* Smartlink_Monitor.xcdatamodeld */,
+			);
+			name = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +322,7 @@
 				39F9135C169FA79900FAB3A8 /* Smartlink_Monitor.xcdatamodeld in Sources */,
 				39F9135F169FA79900FAB3A8 /* MasterViewController.m in Sources */,
 				39F91362169FA79900FAB3A8 /* DetailViewController.m in Sources */,
+				CEFC85F9169FBD0700A374E5 /* User.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +507,7 @@
 				39F9137D169FA79A00FAB3A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39F9137E169FA79A00FAB3A8 /* Build configuration list for PBXNativeTarget "Smartlink-MonitorTests" */ = {
 			isa = XCConfigurationList;
@@ -485,6 +516,7 @@
 				39F91380169FA79A00FAB3A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
